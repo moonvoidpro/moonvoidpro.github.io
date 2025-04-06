@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Hugo
         working-directory: .
-        run: hugo --minify --themesDir ../themes
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
