@@ -5,7 +5,7 @@ type: docs
 
 # 中文索引页
 
-[My First Post](posts/my-first-post.md)
+[My First Post](posts/my-first-post)
 
 
 
