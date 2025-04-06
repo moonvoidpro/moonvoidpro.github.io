@@ -1,21 +1,34 @@
-name: Deploy to GitHub Pages
+name: Build with Hugo
 
-on:
-  push:
-    branches:
-      - main  # 或者你使用的默认分支
+on: [push, pull_request]
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        hugo-version:
+          - 'latest'
+          - '0.134.2'
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2
-      - name: Deploy to GitHub Pages
+      - uses: actions/checkout@v4
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ matrix.hugo-version }}
+          extended: true
+
+      - name: Run Hugo
+        working-directory: exampleSite
+        run: hugo --themesDir ../..
+
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.BOOK_BLOG }}  # 使用 GitHub Secret 进行授权
-          publish_dir: ./public  # 发布 Hugo 构建的文件夹
+          github_token: ${{ secrets.BOOK_BLOG }}
+          publish_dir: ./public
 
