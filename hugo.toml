@@ -1,4 +1,4 @@
-baseURL = "https://moonvoidpro.github.io/"
+baseURL = "https://example.com/"
 languageCode = 'en-us'
 title = 'Baldr Sky Redive'
 theme = "hugo-book"
