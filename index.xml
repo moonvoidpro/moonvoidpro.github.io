@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>介绍 on Baldr Sky Redive</title><link>https://example.com/</link><description>Recent content in 介绍 on Baldr Sky Redive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 06 Apr 2025 21:49:31 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://example.com/posts/my-first-post/</link><pubDate>Sun, 06 Apr 2025 21:49:31 +0800</pubDate><guid>https://example.com/posts/my-first-post/</guid><description>&lt;p>My first Blog based on Hugo.&lt;/p>
-&lt;p>The theme is &lt;a href="https://github.com/alex-shpak/hugo-book">Hugo book&lt;/a>. I believe it&amp;rsquo;s static, plain and readable.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>介绍 on Baldr Sky Redive</title>
+    <link>https://moonvoidpro.github.io/</link>
+    <description>Recent content in 介绍 on Baldr Sky Redive</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Apr 2025 21:49:31 +0800</lastBuildDate>
+    <atom:link href="https://moonvoidpro.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://moonvoidpro.github.io/posts/my-first-post/</link>
+      <pubDate>Sun, 06 Apr 2025 21:49:31 +0800</pubDate>
+      <guid>https://moonvoidpro.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;My first Blog based on Hugo.&lt;/p&gt;&#xA;&lt;p&gt;The theme is &lt;a href=&#34;https://github.com/alex-shpak/hugo-book&#34;&gt;Hugo book&lt;/a&gt;. I believe it&amp;rsquo;s static, plain and readable.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
