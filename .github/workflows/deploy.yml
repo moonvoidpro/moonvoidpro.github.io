@@ -1,27 +1,21 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Set this to your default branch
+      - main  # 或者你使用的默认分支
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Setup Hugo
+      - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.BOOK_BLOG }}
-          publish_dir: ./public
+          github_token: ${{ secrets.BOOK_BLOG }}  # 使用 GitHub Secret 进行授权
+          publish_dir: ./public  # 发布 Hugo 构建的文件夹
+
