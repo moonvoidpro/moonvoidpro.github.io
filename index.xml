@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>介绍 on Baldr Sky Redive</title>
+    <title>介绍 on 如月寮</title>
     <link>https://moonvoidpro.github.io/</link>
-    <description>Recent content in 介绍 on Baldr Sky Redive</description>
+    <description>Recent content in 介绍 on 如月寮</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Sun, 06 Apr 2025 21:49:31 +0800</lastBuildDate>
     <atom:link href="https://moonvoidpro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       <link>https://moonvoidpro.github.io/posts/my-first-post/</link>
       <pubDate>Sun, 06 Apr 2025 21:49:31 +0800</pubDate>
       <guid>https://moonvoidpro.github.io/posts/my-first-post/</guid>
-      <description>&lt;p&gt;My first Blog based on Hugo.&lt;/p&gt;&#xA;&lt;p&gt;The theme is &lt;a href=&#34;https://github.com/alex-shpak/hugo-book&#34;&gt;Hugo book&lt;/a&gt;. I believe it&amp;rsquo;s static, plain and readable.&lt;/p&gt;</description>
+      <description>&lt;p&gt;[English]&lt;/p&gt;&#xA;&lt;p&gt;My first Blog based on Hugo.&lt;/p&gt;&#xA;&lt;p&gt;The theme is &lt;a href=&#34;https://github.com/alex-shpak/hugo-book&#34;&gt;Hugo book&lt;/a&gt;. I believe it&amp;rsquo;s static, plain and readable.&lt;/p&gt;&#xA;&lt;p&gt;[中文]&lt;/p&gt;&#xA;&lt;p&gt;当你发现中文内容与英文内容不一致时，不要紧张。&lt;/p&gt;&#xA;&lt;p&gt;这是我第一次用 Hugo 引擎在 GitHub Pages 上部署 Blog。&lt;/p&gt;&#xA;&lt;p&gt;本人的 GitHub Pages 模板近年来先后经理如下几次变迁：&lt;/p&gt;&#xA;&#xA;&#xA;&lt;script src=&#34;https://moonvoidpro.github.io/mermaid.min.js&#34;&gt;&lt;/script&gt;&#xA;&#xA;  &lt;script&gt;mermaid.initialize({&#xA;  &#34;flowchart&#34;: {&#xA;    &#34;useMaxWidth&#34;:true&#xA;  },&#xA;  &#34;theme&#34;: &#34;default&#34;&#xA;}&#xA;)&lt;/script&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;pre class=&#34;mermaid img-fluid&#34;&gt;&#xA;graph LR&#xA;    subgraph &#34;Hexo 时代&#34;&#xA;        Hux[&#34;Hux&lt;br&gt;(Jekyll + Hexo, 2020)&#34;] --&gt; Matery[&#34;Matery&lt;br&gt;(Hexo, 2023)&#34;]&#xA;    end&#xA;    subgraph &#34;Hugo 时代&#34;&#xA;        Book[&#34;Book&lt;br&gt;(Hugo, 2025)&#34;]&#xA;    end&#xA;    Matery --&gt; Book&#xA;&lt;/pre&gt;&#xA;&#xA;&lt;p&gt;大道至简，希望这个简洁明了的模板让我用得开心。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
