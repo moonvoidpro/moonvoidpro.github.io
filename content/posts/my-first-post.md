@@ -28,6 +28,6 @@ graph LR
         Book["Book<br>(Hugo, 2025)"]
     end
     Matery --> Book
-{{<mermaid >}}
+{{< /mermaid >}}
 
 大道至简，希望这个简洁明了的模板让我用得开心。
