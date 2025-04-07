@@ -5,9 +5,9 @@ type: docs
 
 # 中文索引页
 
-[My First Post](/posts/my-first-post/)
+[第一次发信测试](/posts/my-first-post/)
 
-
+起名叫“如月寮”是因为我喜欢 Baldr Sky Dive。
 
 ## Astris ipse furtiva
 

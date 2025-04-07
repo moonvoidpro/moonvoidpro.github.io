@@ -1,4 +1,4 @@
 baseURL = "https://moonvoidpro.github.io/"
-languageCode = 'en-us'
-title = 'Baldr Sky Redive'
+languageCode = 'zh-cn'
+title = '如月寮'
 theme = "hugo-book"
