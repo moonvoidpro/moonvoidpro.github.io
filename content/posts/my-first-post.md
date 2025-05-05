@@ -17,7 +17,7 @@ The theme is [Hugo book](https://github.com/alex-shpak/hugo-book). I believe it'
 
 这是我第一次用 Hugo 引擎在 GitHub Pages 上部署 Blog。
 
-本人的 GitHub Pages 模板近年来先后经理如下几次变迁：
+本人的 GitHub Pages 模板近年来先后经历如下几次变迁：
 
 {{< mermaid class="img-fluid" >}}
 graph LR
